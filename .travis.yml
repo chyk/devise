@@ -24,6 +24,7 @@ before_script: "bundle update"
 
 script: "bundle exec rake test"
 
+
 branches:
   only:
     - rails424ruby224
